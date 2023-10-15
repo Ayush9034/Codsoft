@@ -1,0 +1,124 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #2196F3; /* Blue background color */
+}
+
+.calculator {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 20px; /* Make the calculator round */
+    overflow: hidden;
+    width: 400px; /* Increase the calculator size */
+    max-width: 100%;
+    text-align: center;
+}
+
+.title {
+    background-color: #2196F3; /* Blue title background color */
+    color: #fff;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.display {
+    padding: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    border: none;
+    outline: none;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px; /* Increase the gap between buttons */
+    padding: 20px;
+}
+
+.circle {
+    font-size: 24px;
+    padding: 20px; /* Increase button size */
+    background-color: #2196F3; /* Blue button background color */
+    color: #fff;
+    border: none;
+    border-radius: 50%; /* Make buttons circular */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.circle:hover {
+    background-color: #1565C0; /* Darker blue on hover */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #fff; /* Change the background color to white */
+}
+
+.calculator {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 20px; /* Make the calculator round */
+    overflow: hidden;
+    width: 400px; /* Increase the calculator size */
+    max-width: 100%;
+    text-align: center;
+    border: 2px solid #2196F3; /* Add a border to the calculator */
+    box-sizing: border-box; /* Include border in sizing */
+}
+
+.title {
+    background-color: #2196F3; /* Blue title background color */
+    color: #fff;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.display {
+    padding: 20px;
+    border-bottom: 1px solid #ccc; /* Add a border to the display */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    background-color: #fff; /* Change the display background to white */
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px; /* Increase the gap between buttons */
+    padding: 20px;
+}
+
+.circle {
+    font-size: 24px;
+    padding: 20px; /* Increase button size */
+    background-color: #2196F3; /* Blue button background color */
+    color: #fff;
+    border: none;
+    border-radius: 50%; /* Make buttons circular */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.circle:hover {
+    background-color: #1565C0; /* Darker blue on hover */
+}
+
